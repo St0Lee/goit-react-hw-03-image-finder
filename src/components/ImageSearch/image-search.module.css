@@ -1,0 +1,17 @@
+.list {
+    border:red solid ;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+    ;
+}
+
+.item {
+    border:blue solid ;
+}
+
+.loadMoreWrap {
+    margin-top: 15px;
+    text-align: center;
+}
