@@ -50,6 +50,9 @@ class ImageSearch extends Component {
     }
   
     handleSearch = ({ search }) => {
+      if(this.state.search === search){
+        return alert (`Can't enter identical request.`)
+      }
       this.setState({ search, totalHits: 0, hits: [], page: 1 });
     };
   
